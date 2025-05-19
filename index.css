@@ -1,0 +1,886 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poopins" sans-serif;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.carousel-item {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.carousel-item-next,
+.carousel-item.active {
+    animation-name: slideDown;
+}
+
+
+
+
+
+
+
+
+.carousel-indicators {
+    position: absolute;
+    flex-direction: column;
+
+}
+
+.btn {
+    padding-left: 90%;
+    margin-left: 90%;
+}
+
+
+
+
+
+
+
+
+
+.carousal-image {
+    width: 100%;
+    height: 91vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Light shadow for depth */
+}
+
+.carousal-button {
+    margin-bottom: 130px;
+    background-color: #32a852;
+    padding: 14px 22px;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+.carousal-heading {
+    font-size: 3rem;
+}
+
+.carousel-item p {
+    font-size: 17px;
+    font-family: "Toko", sans-serif;
+    font-weight: 700;
+}
+
+.li::after {
+    content: '';
+    position: absolute;
+    width: 23px;
+    height: 8px;
+    color: red;
+
+}
+
+.lini {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-right: 52px;
+}
+
+.lini:hover {
+
+    color: rgb(2, 97, 229);
+    text-decoration-color: dashed red;
+}
+
+.lin {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-right: 52px;
+}
+
+.lin-icon {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.lin:hover {
+
+    color: rgb(2, 134, 229);
+    text-decoration-color: dashed red;
+}
+
+.logo {
+    width: 70px;
+    height: 50px;
+}
+
+
+.icon1 {
+    color: red;
+}
+
+.sec1 {
+    margin-top: 150px;
+    height: 500px;
+}
+
+.div1 {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    transition: 0.3s;
+}
+
+.div1:hover {
+    margin-top: 10px;
+}
+
+.div1 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.div1 img:hover {
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+.h-1 {
+    font-family: Agency FB;
+    color: black;
+    text-align: center;
+    font-weight: 550;
+}
+
+.btn1 {
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.div2 {
+    width: 56px;
+    clip-path: polygon(0 44%, 99% 100%, 100% 0);
+    height: 89px;
+    padding: 24px 9px;
+}
+
+.icon1 {
+    font-weight: 100;
+    font-size: 50px;
+    clip-path: content-box;
+    background: aqua;
+    transition: 0.3s;
+    color: black;
+}
+
+.icon1:hover {
+    transform: rotate(30deg) scale(1.1);
+
+}
+
+.h-2 {
+    font-size: 10px;
+    line-height: 0px;
+}
+
+.p1 {
+    font-size: 10px;
+    line-height: 11px;
+    margin-top: -12px;
+}
+
+.div3 {
+    font-family: Agency FB;
+    font-size: 20px;
+    text-align: center;
+    padding: auto;
+    font-weight: 600;
+}
+
+.div4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.div5 {
+    color: red;
+    cursor: pointer;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    font-size: 13px;
+}
+
+.div5 span {
+    color: grey;
+    transition: 0.3s;
+    cursor: pointer;
+    gap: 4px;
+    padding: 10px;
+}
+
+.div5 span:hover {
+    color: rgb(255, 0, 0);
+}
+
+.div6 img {
+    width: 270px;
+}
+
+.div6 {
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+
+.div7 {
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+
+.div8 {
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+
+.div9 {
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+
+.div10 {
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+
+.div11 {
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+
+.div12 {
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+
+.div13 {
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+
+.content {
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: 10px;
+    height: 90%;
+    left: 0%;
+    display: none;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+.content1 {
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: 10px;
+    height: 90%;
+    left: 0%;
+    padding: 10px;
+    display: none;
+    transition: 0.6s;
+}
+
+.content2 {
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: 10px;
+    height: 90%;
+    left: 0%;
+    display: none;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+.content3 {
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: 10px;
+    height: 90%;
+    left: 0%;
+    display: none;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+.content4 {
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: 10px;
+    height: 90%;
+    left: 0%;
+    display: none;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+.content5 {
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: 10px;
+    height: 90%;
+    left: 0%;
+    display: none;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+.content6 {
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: 10px;
+    height: 90%;
+    left: 0%;
+    padding: 10px;
+    display: none;
+    transition: 0.6s;
+}
+
+.content7 {
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    font-size: 10px;
+    padding: 10px;
+    height: 90%;
+    left: 0%;
+    display: none;
+    transition: 0.6s;
+}
+
+.div6:hover .content {
+    left: 0;
+    transition: 0.6s;
+    display: block;
+}
+
+.div7:hover .content1 {
+    left: 0;
+    transition: 0.6s;
+    display: block;
+
+}
+
+.div8:hover .content2 {
+    left: 0;
+    transition: 0.6s;
+    display: block;
+
+}
+
+.div9:hover .content3 {
+    left: 0;
+    transition: 0.6s;
+    display: block;
+
+}
+
+.div10:hover .content4 {
+    left: 0;
+    transition: 0.6s;
+    display: block;
+
+}
+
+.div11:hover .content5 {
+    left: 0;
+    transition: 0.6s;
+    display: block;
+
+}
+
+.div12:hover .content6 {
+    left: 0;
+    transition: 0.6s;
+    display: block;
+
+}
+
+.div13:hover .content7 {
+    left: 0;
+    transition: 0.6s;
+    display: block;
+
+}
+
+
+
+.div7 img {
+    width: 270px;
+}
+
+.div8 img {
+    width: 270px;
+}
+
+.div9 img {
+    width: 270px;
+}
+
+.div10 img {
+    width: 270px;
+}
+
+.div11 img {
+    width: 270px;
+}
+
+.div12 img {
+    width: 270px;
+}
+
+.div13 img {
+    width: 270px;
+}
+
+
+.div14 h1 {
+    color: transparent;
+    font-family: Agency FB;
+    font-weight: 1000;
+    background-image: url(image/bench.jpg);
+    background-size: 100% 83%;
+    font-size: 268px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 97px;
+    -webkit-background-clip: text;
+}
+
+.div14 h1:hover {
+    animation-name: ten;
+    animation-duration: 2s;
+
+}
+
+.div15 h2 {
+    color: black;
+    font-family: Agency FB;
+    text-align: center;
+    width: 200px;
+    margin-top: 72px;
+    font-weight: 200;
+    border-left: 2px solid grey;
+
+}
+
+.div15 p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 200px;
+    color: grey;
+    text-align: center;
+    line-height: 20px;
+}
+
+.btn3 {
+    background: rgb(254, 60, 60);
+    padding: 11px 35px;
+    margin-left: 24px;
+    color: white;
+    font-family: Agency FB;
+    border: none;
+    transition: 0.3s;
+    font-weight: 900;
+}
+
+.btn3:hover {
+    background: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.div16 p {
+    color: grey;
+    font-size: 7px;
+}
+
+.div16 {
+    margin-left: -50px;
+    margin-top: 52px;
+
+}
+
+.div16 h2 {
+    color: black;
+    font-family: Agency FB;
+    font-size: 75px;
+}
+
+
+.div19 h2 {
+    font-family: Agency FB;
+    font-size: 45px;
+    font-weight: 200;
+    margin: auto;
+    text-align: center;
+}
+
+.div20 {
+    margin-top: 50px;
+}
+
+.div21 {
+    height: 300px;
+    position: relative;
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.div21:hover {
+    filter: grayscale(0);
+}
+
+.div21 img {
+    width: 261px;
+    height: 270px;
+}
+
+.div22 {
+    position: absolute;
+    top: 182px;
+    width: 64%;
+    left: 0;
+    color: white;
+    clip-path: polygon(0% 0%, 93% 0%, 100% 100%, 0% 100%);
+    box-sizing: border-box;
+    transition: 0.3s;
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.div22:hover {
+    width: 90%;
+}
+
+.div22 h4 {
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.div22 p {
+    color: green;
+    font-size: 11px;
+    padding-left: 40px;
+}
+
+.div23 h2 {
+    color: black;
+    font-family: Agency FB;
+    font-weight: 400;
+    font-size: 32px;
+    gap: 4px;
+}
+
+.div23 p {
+    color: green;
+    font-family: Agency FB;
+    font-size: 27px;
+    padding-left: 95px;
+}
+
+.div23 span {
+    padding-left: 82px;
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.div23 span:hover {
+    color: green;
+}
+
+.div24 {
+    background-color: grey;
+    width: 355px;
+    height: 4px;
+    border-radius: 16px;
+    margin-top: -18px;
+    margin-left: 146px;
+}
+
+.div25 {
+    background-color: green;
+    width: 53px;
+    height: 7px;
+    border-radius: 16px;
+    margin-top: -6px;
+    margin-left: 146px;
+}
+
+.div26 {
+    margin-top: 35px;
+}
+
+.div27 h5 {
+    color: rgb(0, 0, 0);
+    font-family: Agency FB;
+    padding-top: 37px;
+    margin-left: -95px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.div27 p {
+    color: grey;
+    width: 405px;
+    font-size: 13px;
+    text-align: left;
+    margin-left: auto;
+}
+
+.div28 button {
+    background-color: rgb(255, 84, 84);
+    color: white;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-family: Agency FB;
+    font-size: 12px;
+    font-weight: 800;
+    border: none;
+    transition: all 0.3s;
+}
+
+.div28 button:hover {
+    color: black;
+    background: none;
+    border: 1px solid black;
+}
+
+.div28 span button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+
+}
+
+.div28 span button:hover {
+    background: palevioletred;
+    border: 1px solid black;
+}
+
+.div29 {
+    border: 2px solid black;
+    width: 386px;
+    height: 258px;
+    transition: 0.3s;
+}
+
+.div29:hover {
+    margin-left: 10px;
+}
+
+.div30 img {
+    width: 381px;
+    margin-top: 12px;
+    margin-left: -23px;
+    transition: all 0.3s;
+}
+
+.div30 img:hover {
+    margin-top: -12px;
+    margin-left: 23px;
+}
+
+.div31 h2 {
+    color: black;
+    font-family: Agency FB;
+    font-size: 44px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.img1 {
+    height: 20px;
+}
+
+.sec2 {
+    margin-left: -1000px;
+}
+
+.cardse {
+    width: 366px;
+    height: 150px;
+    position: absolute;
+
+    margin-top: 51px;
+    margin-left: 59px;
+}
+
+.gf {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    border-radius: 35px;
+}
+
+.nyr {
+    margin-left: 52px;
+    position: absolute;
+    margin-top: -72px;
+    font-size: 21px;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nye {
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 51px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -72px;
+    padding: 10px;
+}
+
+.nyt {
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 49px;
+    position: absolute;
+    margin-top: -72px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nyr:hover {
+    color: lightgreen;
+}
+
+.nye:hover {
+    color: lightgreen;
+}
+
+.nyt:hover {
+    color: lightgreen;
+}
+
+.div31 {
+    margin-top: 30px;
+    max-width: 810px !important;
+}
+
+.div32 p {
+    background: white;
+    margin-top: -46px;
+    padding-top: 8px;
+    padding-left: 10px;
+    width: 73px;
+    height: 46px;
+    font-size: 29px;
+    font-weight: 600;
+    clip-path: polygon(70% 0, 100% 32%, 100% 60%, 100% 100%, 0 100%, 0 53%, 0 0);
+    font-family: Agency FB;
+    color: #47da47;
+}
+
+.div32 span {
+    font-size: 21px;
+}
+
+.div33 image {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.icondiv {
+    color: rgb(188, 188, 0);
+}
+
+.icondiv i {
+    margin-left: 11px;
+    font-size: 20px;
+}
+
+.btn-5 {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    margin-top: 14px;
+    border: none;
+    padding: 8px 27px;
+    text-align: center;
+}
